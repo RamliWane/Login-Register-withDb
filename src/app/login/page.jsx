@@ -10,6 +10,7 @@ const Form = () => {
   async function handleLogin(formData) {
     const response = await signIn("credentials", {
       redirect: false,
+      username: formData.get("username"),
       email: formData.get("email"),
       password: formData.get("password"),
     });
