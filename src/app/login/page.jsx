@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { signIn } from 'next-auth/react';
-import { useRouter } from 'next/navigation';
+import { redirect, useRouter } from 'next/navigation';
 
 const Form = () => {
   const router = useRouter();
@@ -19,7 +19,7 @@ const Form = () => {
       return;
     }
 
-    router.push("/dashboard");
+    redirect("/dashboard");
   }
 
   return (
