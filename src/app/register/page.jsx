@@ -46,7 +46,7 @@ const Register = () => {
                 type="text"
                 required
                 className="mt-1 text-black block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-                placeholder="John Doe"
+                placeholder="Name"
               />
             </div>
             
@@ -60,7 +60,7 @@ const Register = () => {
                 type="email"
                 required
                 className="mt-1 text-black block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-                placeholder="nama@email.com"
+                placeholder="name@email.com"
               />
             </div>
             
@@ -89,8 +89,8 @@ const Register = () => {
                 type="password"
                 required
                 minLength={8}
-                className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-                placeholder="Ulangi password"
+                className="mt-1 text-black block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                placeholder="Return Password"
               />
             </div>
           </div>
